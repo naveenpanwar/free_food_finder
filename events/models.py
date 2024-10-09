@@ -12,7 +12,7 @@ class Event(models.Model):
     title = models.CharField(
         max_length=100,
         choices=TITLE_CHOICES,
-        default="Bhandara"
+        default="Bhandara",
     )
     description = models.TextField()
     location = models.CharField(max_length=255)
